@@ -2,11 +2,11 @@ import psycopg2
 from contextlib import closing
  
 # Database connection details
-DB_HOST = "oneopsdb-np.ebiz.verizon.com"
+DB_HOST = "oneo"
 DB_PORT = 5432
 DB_NAME = "oneops"
-DB_USER = "cts_user"
-DB_PASSWORD = "cts123"
+DB_USER = "c"
+DB_PASSWORD = "c"
  
 def get_ith_value(i, column_name, query):
     try:

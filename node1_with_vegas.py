@@ -4,11 +4,11 @@ import requests
 import uuid
  
 # Database connection details
-DB_HOST = "oneopsdb-np.ebiz.verizon.com"
+DB_HOST = "one"
 DB_PORT = 5432
 DB_NAME = "oneops"
-DB_USER = "cts_user"
-DB_PASSWORD = "cts123"
+DB_USER = ""
+DB_PASSWORD = ""
  
 class VegasClient:
     """

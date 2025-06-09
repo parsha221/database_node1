@@ -5,7 +5,7 @@ class VegasClient:
     """
     Use an instance of this class to make requests to the Vegas API.
     """
-    _API_ENDPOINT = "http://gpu01-inspire-np.ebiz.verizon.com/agents-svc/api/v1/inference/generate"
+    _API_ENDPOINT = "http:/"
  
     def __init__(self, api_key, client_id):
         """

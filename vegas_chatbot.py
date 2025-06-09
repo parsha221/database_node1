@@ -4,7 +4,7 @@ import uuid
 from pprint import pprint
 
 class VegasClient:
-    _API_ENDPOINT = "http://gpu01-inspire-np.ebiz.verizon.com/agents-svc/api/v1/inference/generate"
+    _API_ENDPOINT = "http://"
 
     def __init__(self, api_key, client_id):
         self.api_key = api_key
